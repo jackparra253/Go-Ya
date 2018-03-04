@@ -12,6 +12,6 @@ func main(){
 	fmt.Print("Ingrese el pago por hora:")
 	fmt.Scan(&costoHora)
 	sueldo = float32(horasTrabajadas) * costoHora
-	fmt.Print("El sueldo total del operario es" , sueldo)
+	fmt.Println("El sueldo total del operario es" , sueldo)
 
 }
