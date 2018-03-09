@@ -12,17 +12,18 @@ func main(){
 	fmt.Scan(&numeroUno)
 
 	fmt.Print("Ingrese un número: ")
-	ftm.Scan(&numeroDos)
+	fmt.Scan(&numeroDos)
 
 	fmt.Print("Ingrese un número: ")
 	fmt.Scan(&numeroTres)
 
-	if numerouno > numeroDos && numeroUno > numeroTres {
-		fmt.Print("El número mayor es: " , numeroUno)
+	if numeroUno > numeroDos && numeroUno > numeroTres {
+		fmt.Println("El número mayor es: " , numeroUno)
 	} else if numeroDos > numeroTres && numeroDos > numeroUno {
-		fmt.Print("El número mayor es: ", numeroDos)
+		fmt.Println("El número mayor es: ", numeroDos)
 	} else if numeroTres > numeroUno && numeroTres > numeroDos {
-		fmt.Print("El número mayor es: ").
+		fmt.Println("El número mayor es: ", numeroTres)
+	} else {
+		fmt.Println("Ningún número es mayor que el otro. ")
 	}
-
 }
