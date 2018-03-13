@@ -20,5 +20,4 @@ func main(){
 	if numero1 < 10 || numero2 < 10 || numero3 < 10 {
 		fmt.Println("Alguno de los números es menor a diez")
 	}
-
 }
